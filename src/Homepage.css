@@ -1,0 +1,9 @@
+#root {
+padding: 2rem;
+  
+}
+
+.container{
+    display:flex;
+    gap:64px;
+}
