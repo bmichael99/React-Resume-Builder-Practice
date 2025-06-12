@@ -1,0 +1,14 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.preview{
+    background-color: white;
+    color:black;
+    padding:1rem;
+}
+
+h2{
+    text-align: center;
+}
