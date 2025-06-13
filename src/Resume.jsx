@@ -8,25 +8,27 @@ function Resume({fullName,emailAddress,portfolioURL,githubURL}) {
     <div className="preview">
       <div className="header">
         <h2>{fullName}</h2>
-        <p>Email: {emailAddress}</p>
-        <p>Portfolio: {portfolioURL}</p>
-        <p>GitHub: {githubURL}</p>
+        <p>{emailAddress} | {portfolioURL} | {githubURL}</p>
       </div>
 
       <div className="education-section">
-
+      <h4>Education</h4>
+      <hr />
       </div>
-      
-      <div className="skills-section">
 
+      <div className="skills-section">
+      <h4>Skills</h4>
+      <hr />
       </div>
 
       <div className="experience-section">
-
+      <h4>Experience</h4>
+      <hr />
       </div>
 
       <div className="project-section">
-
+      <h4>Projects</h4>
+      <hr />
       </div>
 
       

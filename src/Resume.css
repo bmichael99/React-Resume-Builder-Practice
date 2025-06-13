@@ -7,8 +7,23 @@
     background-color: white;
     color:black;
     padding:1rem;
+    width: 800px;
+    display:flex;
+    flex-direction: column;
+    gap:8px;
 }
 
-h2{
-    text-align: center;
+.header{
+    text-align:center;
+}
+
+h4{
+    font-weight:normal;
+}
+
+hr{
+    height:1px;
+    border-width:0;
+    color:black;
+    background-color: black;
 }
